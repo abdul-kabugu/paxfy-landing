@@ -7,6 +7,7 @@ import Beliefs from '@/components/Beliefs'
 import Beliefe1 from '@/components/Beliefe1'
 import Beliefe2 from '@/components/Beliefe2'
 import Beliefe3 from '@/components/Beliefe3'
+import Roadmap from '@/components/Roadmap'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Beliefe1  />
       <Beliefe2  />
       <Beliefe3  />
+      <Roadmap   />
     </main>
   )
 }
